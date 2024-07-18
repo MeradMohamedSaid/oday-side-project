@@ -1,0 +1,72 @@
+{
+  "user": "Jeremy Robson",
+  "activities": [
+    {
+      "index": 1,
+      "name": "work",
+      "time": [
+        [8, 9],
+        [32, 36],
+        [115, 235]
+      ],
+      "color": "rgb(255,139,100)",
+      "icon": "FaBriefcase"
+    },
+
+    {
+      "index": 3,
+      "name": "Play",
+      "time": [
+        [1, 1],
+        [4, 7],
+        [30, 65]
+      ],
+      "color": "rgb(86,194,230)",
+      "icon": "IoLogoGameControllerA"
+    },
+    {
+      "index": 5,
+      "name": "Study",
+      "time": [
+        [2, 1],
+        [5, 10],
+        [24, 72]
+      ],
+      "color": "rgb(255,94,125)",
+      "icon": "IoMdSchool"
+    },
+    {
+      "index": 2,
+      "name": "Exercise",
+      "time": [
+        [3, 2],
+        [10, 8],
+        [42, 90]
+      ],
+      "color": "rgb(75,207,131)",
+      "icon": "FaPersonRunning"
+    },
+    {
+      "index": 4,
+      "name": "Social",
+      "time": [
+        [1, 1],
+        [4, 5],
+        [12, 25]
+      ],
+      "color": "rgb(114,53,209)",
+      "icon": "BsChatDotsFill"
+    },
+    {
+      "index": 6,
+      "name": "Self Care",
+      "time": [
+        [1, 1],
+        [2, 2],
+        [9, 19]
+      ],
+      "color": "rgb(241,199,91)",
+      "icon": "BsFillHeartPulseFill"
+    }
+  ]
+}

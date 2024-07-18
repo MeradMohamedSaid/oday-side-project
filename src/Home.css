@@ -1,0 +1,177 @@
+:root {
+  --main: #1c1b44;
+  --main-hover: #353481;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.grid-div {
+  width: 62%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+}
+
+.user-card {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.userCardContainer {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: var(--main);
+  border-radius: 1rem;
+}
+.topUser {
+  background: rgb(87, 70, 234);
+  width: 100%;
+  height: 70%;
+  border-radius: 1rem;
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 81px;
+  height: 81px;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+
+.image img {
+  width: 81px;
+}
+
+.titless {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  color: white;
+  gap: 0.7rem;
+}
+.titless * {
+  padding: 0;
+  margin: 0;
+}
+.titless span {
+  font-size: 0.8rem;
+  font-weight: 200;
+  opacity: 0.5;
+}
+.titless h1 {
+  font-weight: 400;
+}
+
+.buttomUser {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.8rem;
+  align-items: start;
+  box-sizing: border-box;
+}
+
+.buttomUser span {
+  color: rgb(150, 139, 255);
+  opacity: 0.4;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: small;
+  transition: all 0.3s ease;
+}
+.buttomUser span:hover {
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+
+.card {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.card .cardBody {
+  height: 100%;
+  width: 100%;
+  border-radius: 1.3rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+}
+.cardIcon {
+  width: 100%;
+  max-height: 20%;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.cardIcon span {
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.3);
+  transform: translateX(-30%) rotate(45deg) translateY(10%);
+}
+.card .cardBody .infos {
+  z-index: 2;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.7rem 1.8rem;
+  box-sizing: border-box;
+  background: var(--main);
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.card .cardBody:hover .infos {
+  background: var(--main-hover);
+}
+.card .cardBody .infos .topBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .cardBody .infos .time,
+.card .cardBody .infos .Buttom {
+  width: 100%;
+}
+
+.card .cardBody .infos .time {
+  margin-top: 1rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+.card .cardBody .infos .Buttom {
+  font-weight: 200;
+  font-size: 0.8rem;
+  color: #ffffff50;
+}
